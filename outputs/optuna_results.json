@@ -1,0 +1,19 @@
+{
+  "baseline_val_auc": 0.7377,
+  "optuna_best_val_auc": 0.7401,
+  "optuna_delta": 0.0023,
+  "best_params": {
+    "num_leaves": 87,
+    "min_child_samples": 10,
+    "max_depth": 3,
+    "reg_alpha": 9.440304,
+    "reg_lambda": 9.149824,
+    "min_split_gain": 0.655073,
+    "feature_fraction": 0.682619,
+    "bagging_fraction": 0.509842,
+    "bagging_freq": 8,
+    "spw_mult": 1.099944
+  },
+  "n_trials": 20,
+  "ceiling_supported": true
+}

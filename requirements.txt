@@ -1,0 +1,16 @@
+﻿# Direct project dependencies for allied-health-nudge.
+# Install: pip install -r requirements.txt
+#
+# Note: This is the MINIMAL set. The previous 230-line file was a full
+# pip freeze dump including transitive dependencies, Jupyter internals,
+# and build tools — not suitable for a portfolio repo.
+
+pandas>=2.0.0
+numpy>=1.24.0
+lightgbm>=4.0.0
+scikit-learn>=1.3.0
+shap>=0.42.0
+matplotlib>=3.7.0
+SQLAlchemy>=2.0.0
+jupyter>=1.0.0
+psycopg2-binary>=2.9.0

@@ -71,5 +71,4 @@ Desktop.ini
 # ── Claude ────────────────────────────────────────────────────────────
 # CLAUDE.md is project context, keep it tracked
 # .claude/ settings are personal, ignore them
-.claude/settings.json
-.claude/credentials.json
+.claude/
