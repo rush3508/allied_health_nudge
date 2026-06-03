@@ -1,0 +1,75 @@
+# ── Generated outputs ──────────────────────────────────────────────────
+outputs/*.pkl
+outputs/*.csv
+outputs/*.png
+outputs/shap_summary.png
+outputs/feature_importance.csv
+outputs/model.pkl
+outputs/calibrator.pkl
+outputs/eval_metrics.json
+outputs/scored_members.csv
+outputs/scoring_summary.json
+outputs/audit_report.md
+
+# Keep model_version.json (it documents the environment, not generated data)
+!outputs/model_version.json
+
+# ── Generated intermediate data ───────────────────────────────────────
+data/features/*.parquet
+data/raw/*.csv
+data/raw/cms/
+data/raw/synthea/
+data/raw/DEI/
+
+# ── Third-party / vendor data (Synthea repo) ──────────────────────────
+data/synthea/
+
+# ── Python ────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+*.egg
+dist/
+build/
+
+# ── Jupyter ───────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── IDE / Editor ──────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── Environment ───────────────────────────────────────────────────────
+venv/
+.env
+.venv/
+env/
+.env.local
+.env.*
+
+# ── Binary / Non-code ─────────────────────────────────────────────────
+# partA.pbix is a Power BI dashboard (2.2 MB binary).
+# It is NOT source code and should not be in version control.
+# If you need to share this, use SharePoint/OneDrive or a dedicated
+# artefacts repository.
+partA.pbix
+
+# ── OS ────────────────────────────────────────────────────────────────
+Thumbs.db
+.DS_Store
+Desktop.ini
+
+# ── Syncthing ─────────────────────────────────────────────────────────
+.stfolder/
+.stversions/
+
+# ── Claude ────────────────────────────────────────────────────────────
+# CLAUDE.md is project context, keep it tracked
+# .claude/ settings are personal, ignore them
+.claude/settings.json
+.claude/credentials.json
