@@ -11,6 +11,8 @@ outputs/scored_members.csv
 outputs/scoring_summary.json
 outputs/audit_report.md
 outputs/report.html
+outputs/report2.html
+src/build_report2.py
 
 # Keep model_version.json (it documents the environment, not generated data)
 !outputs/model_version.json
@@ -80,3 +82,4 @@ PROJECT_LOG.md
 # ── Internal project files ─────────────────────────────────────────────
 fix_notebooks.py
 C2_zero_shap_analysis.md
+references/streamlit-app-code.md
