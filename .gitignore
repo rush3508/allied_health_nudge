@@ -10,8 +10,6 @@ outputs/eval_metrics.json
 outputs/scored_members.csv
 outputs/scoring_summary.json
 outputs/audit_report.md
-outputs/report.html
-outputs/report2.html
 src/build_report2.py
 
 # Keep model_version.json (it documents the environment, not generated data)
